@@ -35,5 +35,7 @@ public class t2 {
         String a="123&re";
         String a2=t2.HTMLEncode(a);
         System.out.println(a2);
+        System.out.println("111111");
+
     }
 }
