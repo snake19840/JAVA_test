@@ -1,12 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bac431f7-4dde-4a44-9dbd-7b16cccba695" name="Default Changelist" comment="" />
+    <list default="true" id="bac431f7-4dde-4a44-9dbd-7b16cccba695" name="Default Changelist" comment="2020-8-20 完成redis与oracle之间的映射测试">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imp/Bread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imp/BreadImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imp/Men.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imp/Milk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imp/MilkImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imp/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oracle/Equ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oracle/JDBCconnect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oracle/OrcSel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oracle/config.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/redis/ListTranscoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/redis/ObjectsTranscoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/redis/RedisJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/redis/SerializeTranscoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/redis/StringTranscoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/redis/TestSerializerTranscoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/redis/TestUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/redis/t1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sq/entity/User.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sq/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/out/production/javaTest/META-INF/javaTest.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/out/production/javaTest/com/oracle/config.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/out/production/javaTest/com/sq/entity/User.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test1/t00.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test1/t1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="ComposerSettings">
     <execution>
@@ -16,12 +53,21 @@
   <component name="CoverageViewManager">
     <option name="myElementSize" value="148" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JAVA_test" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Tag Library Descriptor" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -32,26 +78,43 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../yujian/apache-maven-3.6.3" />
         <option name="userSettingsFile" value="D:\Users\yujian\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectId" id="1aJCF7zTCt99sAg59k5SV5l94ru" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Users\IDEAproject\javaTest\src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\IDEAproject\javaTest\JAVA_test\src\com" />
+      <recent name="D:\Users\IDEAproject\javaTest\JAVA_test\src\oracle" />
+      <recent name="D:\Users\IDEAproject\javaTest\JAVA_test\src\com\sq\entity\User" />
+      <recent name="D:\Users\IDEAproject\javaTest\JAVA_test\src\com\sq\entity" />
       <recent name="D:\Users\IDEAproject\javaTest\src\test1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\IDEAproject\javaTest\JAVA_test\src\com\sq\entity" />
+      <recent name="D:\Users\IDEAproject\javaTest\JAVA_test\src" />
+      <recent name="D:\Users\IDEAproject\javaTest\JAVA_test\src\com\sq" />
+      <recent name="D:\Users\IDEAproject\javaTest\JAVA_test\src\com\sq\entity\User" />
       <recent name="D:\Users\IDEAproject\javaTest\src" />
     </key>
   </component>
@@ -67,13 +130,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="DemoCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test1.DemoCode" />
+  <component name="RunManager" selected="Application.RedisJava">
+    <configuration name="JDBCconnect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oracle.JDBCconnect" />
       <module name="javaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test1.*" />
+          <option name="PATTERN" value="oracle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IfDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test1.IfDemo" />
+    <configuration name="OrcSel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.oracle.OrcSel" />
       <module name="javaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test1.*" />
+          <option name="PATTERN" value="com.oracle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test02.Test" />
+    <configuration name="RedisJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.redis.RedisJava" />
       <module name="javaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test02.*" />
+          <option name="PATTERN" value="com.redis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,19 +170,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main" />
+    <configuration name="TestSerializerTranscoder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.redis.TestSerializerTranscoder" />
       <module name="javaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="t2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test1.t2" />
+    <configuration name="t1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.redis.t1" />
       <module name="javaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test1.*" />
+          <option name="PATTERN" value="com.redis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.t2" />
-        <item itemvalue="Application.main" />
-        <item itemvalue="Application.DemoCode" />
-        <item itemvalue="Application.IfDemo" />
+        <item itemvalue="Application.RedisJava" />
+        <item itemvalue="Application.t1" />
+        <item itemvalue="Application.OrcSel" />
+        <item itemvalue="Application.JDBCconnect" />
+        <item itemvalue="Application.TestSerializerTranscoder" />
       </list>
     </recent_temporary>
   </component>
@@ -152,21 +221,94 @@
       <workItem from="1590045516015" duration="1043000" />
       <workItem from="1592058284776" duration="4135000" />
       <workItem from="1592199155598" duration="72000" />
+      <workItem from="1593256547097" duration="4342000" />
+      <workItem from="1593267209820" duration="41000" />
+      <workItem from="1593267255243" duration="206000" />
+      <workItem from="1593268021808" duration="46000" />
+      <workItem from="1593269781997" duration="4295000" />
+      <workItem from="1593890644152" duration="13788000" />
+      <workItem from="1596765724171" duration="137000" />
+      <workItem from="1596767297827" duration="745000" />
+      <workItem from="1597131842486" duration="2740000" />
+      <workItem from="1597658083846" duration="30461000" />
+      <workItem from="1597764305524" duration="519000" />
+      <workItem from="1597764848133" duration="30730000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="2020-8-20 完成redis与oracle之间的映射测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020-8-20 完成redis与oracle之间的映射测试" />
+  </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test1/t1.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test1/t1.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test1/t1.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test1/t1.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test1/t1.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="args" />
+        <watch expression="((HashMap)list.get(0).rowData).entrySet().toArray()[0]" language="JAVA" custom="java.util.HashMap" />
+        <watch expression="list.get(0).getRowData().get(&quot;OWNNAME&quot;)" language="JAVA" />
+        <watch expression="list.get(i).getRowData().get(&quot;REDATE&quot;)" language="JAVA" />
+        <watch expression="list.get(i).getRowData().get(&quot;REDATE&quot;)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JAVA_test$RedisJava.ic" NAME="RedisJava Coverage Results" MODIFIED="1597834649592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.redis.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/javaTest$DeepCopy.ic" NAME="DeepCopy Coverage Results" MODIFIED="1586444400830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JAVA_test$t1.ic" NAME="t1 Coverage Results" MODIFIED="1593272205468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>test1.*</FILTER>
     </SUITE>
   </component>
